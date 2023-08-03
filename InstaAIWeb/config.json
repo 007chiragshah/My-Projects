@@ -1,0 +1,34 @@
+{
+    "config_params_path": "/usr/sbin/config/FFT/RPM_LOR_FMAX_DataPackets_Blocksize_SamplingFreq.csv",
+    "tenant_name": "client_name",
+    "FFT_Version": "2.5.5",
+    "topic": "FFTData_client",
+    "raw_topic": "FFTData_client_2.5.2_raw_data",
+    "cal_topic": "FFTData_client_2.5.2_cal_data",
+    "apply_filter": true,
+    "filter_order": 2,
+    "lower_cutoff": 4,
+    "higher_cutoff": 1302,
+    "thingsboard_ip": "localhost:8080",
+    "username": "client@client.co.in",
+    "password": "client@123",
+    "kafkaUrl": [
+        "localhost:9092"
+    ],
+    "kafka_msg_commands": true,
+    "max_msg_size_kafka": 10000000,
+    "retry_count": 3,
+    "create_log_folder": false,
+    "log": 1,
+    "LOGGING_LEVEL": "INFO",
+    "FS": 16,
+    "harmonic_components": 10,
+    "taq": 300,
+    "default_RPM": 1600,
+    "default_data_packets": 16,
+    "default_sampling_freq": 13333,
+    "filter_idle_tw": false,
+    "test_id": [
+        "NA"
+    ]
+}
